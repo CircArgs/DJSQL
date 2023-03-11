@@ -1,1 +1,0 @@
-docker run --rm -v "$(pwd)":/work any0ne22/antlr4 java -Xmx500M -cp /usr/local/lib/antlr4-tool.jar org.antlr.v4.Tool /work/grammar/SqlBase.g4 -o /work/grammar/generated/ -Dlanguage=Python3
