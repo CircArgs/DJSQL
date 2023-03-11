@@ -44,11 +44,6 @@ class SqlBaseVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by SqlBaseParser#dmlStatement.
-    def visitDmlStatement(self, ctx:SqlBaseParser.DmlStatementContext):
-        return self.visitChildren(ctx)
-
-
     # Visit a parse tree produced by SqlBaseParser#query.
     def visitQuery(self, ctx:SqlBaseParser.QueryContext):
         return self.visitChildren(ctx)

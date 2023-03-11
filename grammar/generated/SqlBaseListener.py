@@ -71,15 +71,6 @@ class SqlBaseListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by SqlBaseParser#dmlStatement.
-    def enterDmlStatement(self, ctx:SqlBaseParser.DmlStatementContext):
-        pass
-
-    # Exit a parse tree produced by SqlBaseParser#dmlStatement.
-    def exitDmlStatement(self, ctx:SqlBaseParser.DmlStatementContext):
-        pass
-
-
     # Enter a parse tree produced by SqlBaseParser#query.
     def enterQuery(self, ctx:SqlBaseParser.QueryContext):
         pass

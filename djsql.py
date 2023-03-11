@@ -7,6 +7,7 @@ Heavily borrowed from https://github.com/pysparkling/python-sql-parser/
 from grammar.generated.SqlBaseLexer import SqlBaseLexer
 from grammar.generated.SqlBaseParser import SqlBaseParser
 from grammar.generated.SqlBaseListener import SqlBaseListener
+import grammar.generated.SqlBaseParser
 
 import antlr4
 from antlr4 import InputStream

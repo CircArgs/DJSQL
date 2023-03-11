@@ -80,9 +80,8 @@ singleDataType
 
 statement
     : query                                                            #statementDefault
-    | ctes?                                                            #dmlStatement
     ;
-
+    
 query
     : ctes? queryTerm queryOrganization
     ;
