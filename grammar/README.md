@@ -1,7 +1,7 @@
 ## Building
 
 from `./grammar` you can run 
-`docker run -v `pwd`:/work any0ne22/antlr4 java -Xmx500M -cp /usr/local/lib/antlr4-tool.jar org.antlr.v4.Tool -Dlanguage=Python3 -o /work/generated SqlBase.g4`
+`docker run -v `pwd`:/work any0ne22/antlr4 java -Xmx500M -cp /usr/local/lib/antlr4-tool.jar org.antlr.v4.Tool -Dlanguage=Python3 -o /work/generated SqlBase.g4 -visitor`
 
 this will generate the `./grammar/generated` directory`
 
