@@ -1,4 +1,4 @@
-# Generated from SqlBase.g4 by ANTLR 4.12.0
+# Generated from SqlBase.g4 by ANTLR 4.9.3
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .SqlBaseParser import SqlBaseParser
